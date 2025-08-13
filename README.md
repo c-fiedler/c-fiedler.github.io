@@ -1,2 +1,2 @@
-# c-fiedler.github.io
+# Christian Fiedler | c-fiedler.github.io
 Personal Website
