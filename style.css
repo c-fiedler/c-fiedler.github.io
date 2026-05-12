@@ -50,6 +50,11 @@ ul {
     margin-left: 1.2rem;
 }
 
+section > h2 + p,
+section > h2 + ul {
+    margin-top: 0.35rem;
+}
+
 header {
     /* give the header the same fixed width as <main> */
     max-width: 600px;
@@ -90,9 +95,15 @@ header {
 }
 
 .pub-summary {
-    margin: 0.35rem 0 0;
-    color: #444;
-    font-size: 0.95rem;
+    margin: 0.25rem 0 0.1rem;
+    color: #555e66;
+    font-size: 0.93rem;
+    line-height: 1.5;
+}
+
+.pub-summary strong {
+    color: #222;
+    font-weight: 600;
 }
 
 main {
@@ -105,12 +116,13 @@ section {
 }
 
 footer {
+    max-width: 600px;
+    margin: 2rem auto 0;
     text-align: center;
     font-size: .8rem;
     color: #666;
     padding: 1.5rem 0;
     border-top: 1px solid #ddd;
-    margin-top: 2rem;
 }
 
 /* Responsive tweaks */
