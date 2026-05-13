@@ -101,9 +101,19 @@ header {
     line-height: 1.5;
 }
 
-.pub-summary strong {
+.pub-summary summary {
     color: #222;
     font-weight: 600;
+    cursor: pointer;
+}
+
+.pub-summary summary:focus-visible {
+    outline: 2px solid #0063c5;
+    outline-offset: 2px;
+}
+
+.pub-summary p {
+    margin-top: 0.2rem;
 }
 
 main {
