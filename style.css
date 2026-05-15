@@ -94,6 +94,10 @@ header {
     font-weight: bold;
 }
 
+.pub-venue {
+    font-style: italic;
+}
+
 .pub-summary {
     margin: 0.25rem 0 0.1rem;
     color: #555e66;
